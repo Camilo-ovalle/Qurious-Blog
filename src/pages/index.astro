@@ -2,7 +2,7 @@
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import { SITE_TITLE, GITHUB } from "../consts";
 ---
 
 <!doctype html>
@@ -13,51 +13,44 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
   <body>
     <Header title={SITE_TITLE} />
     <main>
-      <h1>🧑‍🚀 Hello, Astronaut!</h1>
+      <h1>🐉 Hey, Developers!</h1>
       <p>
-        Welcome to the official <a href="https://astro.build/">Astro</a> blog
-        starter template. This template serves as a lightweight,
-        minimally-styled starting point for anyone looking to build a personal
-        website, blog, or portfolio with Astro.
+        Bienvenidos a mi blog, aquí encontrarás artículos sobre desarrollo web,
+        tecnología y más. Encontrarás articulos utiles para tu día a día como
+        desarrollador y tutoriales para aprender nuevas tecnologías, entre otras
+        cosas, y lo mejor de todo es que todo es gratis 🚀, asi que no dudes en
+        compartirlo con tus amigos 😎.
       </p>
       <p>
-        This template comes with a few integrations already configured in your
-        <code>astro.config.mjs</code> file. You can customize your setup with
-        <a href="https://astro.build/integrations">Astro Integrations</a> to add
-        tools like Tailwind, React, or Vue to your project.
+        Este espacio es para compartir conocimiento y aprender juntos, si
+        encuentras algún error o tienes alguna sugerencia no dudes en
+        <a href={GITHUB} target="_blank">contactarme</a>, estaré encantado de
+        escucharte.
       </p>
-      <p>Here are a few ideas on how to get started with the template:</p>
+      <p>Estos son algunos de los temas que podras encontrar aqui:</p>
       <ul>
-        <li>Edit this page in <code>src/pages/index.astro</code></li>
+        <li>Que son Git y GitHub y como usarlos 🐙</li>
+        <li>Como instalar y usar Visual Studio Code y sus extensiones 🧰</li>
         <li>
-          Edit the site header items in <code>src/components/Header.astro</code>
+          Como instalar y utilizar WSL2 para tener una terminal de linux en
+          Windows 🖥
         </li>
+        <li>Que es y como usar la terminal de linux 🐧</li>
         <li>
-          Add your name to the footer in <code>src/components/Footer.astro</code
-          >
-        </li>
-        <li>
-          Check out the included blog posts in <code>src/pages/blog/</code>
-        </li>
-        <li>
-          Customize the blog post page layout in <code
-            >src/layouts/BlogPost.astro</code
-          >
+          Como instalar y utilizar MySQL para tener una base de datos en tu PC
+          🐬
         </li>
       </ul>
       <p>
-        Have fun! If you get stuck, remember to <a
-          href="https://docs.astro.build/"
-          >read the docs
-        </a> or <a href="https://astro.build/chat">join us on Discord</a> to ask
-        questions.
+        Esto es solo una pequeña muestra de lo que encontrarás en este blog, asi
+        que no dudes en continuar para no perderte nada.
       </p>
       <p>
-        Looking for a blog template with a bit more personality? Check out <a
-          href="https://github.com/Charca/astro-blog-template"
-          >astro-blog-template
-        </a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
+        Perfeto, ahora ve a la pestana de <a href="/blog">blogs</a> o <a
+          href="/tutorials">tutoriales</a
+        > y comienza a leer!
       </p>
+      <p>!Es hora de aprender! 🚀</p>
     </main>
     <Footer />
   </body>
