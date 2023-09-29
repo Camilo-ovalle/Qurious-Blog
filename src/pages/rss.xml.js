@@ -15,8 +15,8 @@ export async function GET(context) {
   });
 }
 
-export async function GET(context) {
-  const posts = await getCollection("tutorial");
+export async function OBT(context) {
+  const posts = await getCollection("tutorials");
   return rss({
     title: SITE_TITLE,
     description: SITE_DESCRIPTION,
