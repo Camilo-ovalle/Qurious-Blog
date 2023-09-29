@@ -1,16 +1,37 @@
 ---
 title: "Git & GitHub - Tus mejores amigos al programar."
-description: "Lorem ipsum dolor sit amet"
-pubDate: "Sep 25 2023"
+description: "Git & GitHub - Tus mejores amigos al programar."
+pubDate: "Sep 28 2023"
 heroImage: "/github.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+En el mundo de la programación, el trabajar junto con otras personas en un equipo de trabajo, es algo muy común. Por lo que es necesario que todos los integrantes del equipo tengan acceso al código fuente del proyecto, y que puedan realizar cambios en el mismo. Para esto, existen herramientas que nos permiten trabajar de manera colaborativa, y una de las más populares es Git.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+![git placeholder](/cover/git/git.jpg)
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+### ¿Entonces, qué es Git?
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+Git es un sistema de control de versiones, que nos permite llevar un registro de los cambios que se realizan en el código fuente de un proyecto. Esto nos permite tener un historial de los cambios que se han realizado, y en caso de que algo salga mal, poder volver a una versión anterior del proyecto. Además, nos permite trabajar de manera colaborativa, ya que nos permite tener una copia del proyecto en nuestra computadora, y poder realizar cambios en el mismo, sin afectar el código fuente del proyecto.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+Git fue creado por Linus Torvalds, el creador del kernel de Linux, y es un software libre, por lo que es gratuito y de código abierto. Además, es multiplataforma, por lo que podemos utilizarlo en Windows, Linux y macOS.
+
+### ¿Cómo funciona Git?
+
+Git funciona de manera muy sencilla. Primero, se crea un repositorio, que es un lugar donde se almacena el código fuente del proyecto. Este repositorio puede estar en nuestra computadora, o en un servidor remoto. Luego, se realiza un commit, que es un registro de los cambios que se han realizado en el código fuente del proyecto. Por último, se realiza un push, que es el envío de los cambios que se han realizado en el código fuente del proyecto, al repositorio.
+
+A grandes rasgos es así como funciona Git, pero en realidad es un poco más complejo. Por ejemplo, cuando se realiza un commit, se crea un snapshot del código fuente del proyecto, y se almacena en el repositorio. Además, cuando se realiza un push, se envía el commit al repositorio, y se crea una rama, que es una copia del código fuente del proyecto, que se almacena en el repositorio. Pero no nos concentraremos en esos detalles, ya que son un poco más avanzados.
+
+### ¿Qué es GitHub?
+
+como lo mensionamos anteriormente, Git es un sistema de control de versiones, que nos permite llevar un registro de los cambios que se realizan en el código fuente de un proyecto. Pero Git no es una plataforma de desarrollo colaborativo, por lo que no nos permite trabajar de manera colaborativa. Para esto, existe GitHub.
+
+![git placeholder](/cover/git/github.jpg)
+
+GitHub es una plataforma de desarrollo colaborativo, que nos permite trabajar en conjunto con otras personas, utilizando Git. En GitHub podemos crear repositorios, y trabajar de manera colaborativa en ellos. Además, podemos crear issues, que son problemas que se presentan en el proyecto, y que deben ser resueltos. También podemos crear pull requests, que son solicitudes de cambios, que se realizan en el código fuente del proyecto. Y por último, podemos crear proyectos, que nos permiten organizar las tareas que se deben realizar en el proyecto.
+
+![git placeholder](/cover/git/GitHubCollaboration.jpg)
+
+En este caso, no profundizaremos en el funcionamiento de GitHub, ya que es un tema muy extenso, y que merece un artículo aparte. y por eso te
+invito a visitar nuestro tutorial sobre [como instalar Git & GitHub](/tutorials/git-bash-instalation/), en donde aprenderas a instalar Git & GitHub en tu computadora, y a crear tu primer repositorio en GitHub.
+
+Asi que te veo en el siguiente articulo developer!🚀.
