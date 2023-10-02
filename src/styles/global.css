@@ -136,12 +136,24 @@ hr {
 }
 
 /* Create a media query to make responsive the site on every Android phone */
-@media(max-width: 380px) {
+@media(max-width: 475px) {
 	body {
 		font-size: 15px;
 	}
 	main {
 		padding: 1em;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+	margin: 0 0 0.5rem 0;
+	color: rgb(var(--black));
+	line-height: 1.2;
+	text-align: center;
 	}
 }
 
