@@ -123,6 +123,6 @@ git branch -M main
 
 ### ¿Que sigue?
 
-Exceleente! Ya hemos creado nuestro repositorio local, y lo hemos conectado con GitHub. Asi que ya estamos listos para comenzar a trabajar en nuestro repositorio, pero esto lo veremos en el siguiente tutorial. Asi que te invito a visitar nuestro tutorial sobre [trabajando con git](/tutorials/trabajando-con-git/), en donde aprenderas a trabajar con git, y a subir tus cambios a GitHub.
+Exceleente! Ya hemos creado nuestro repositorio local, y lo hemos conectado con GitHub. Asi que ya estamos listos para comenzar a trabajar en nuestro repositorio, pero esto lo veremos en el siguiente tutorial. Asi que te invito a visitar nuestro tutorial sobre [trabajando con git](/tutorials/git-flow/), en donde aprenderas a trabajar con git, y a subir tus cambios a GitHub.
 
 Nos vemos en el siguiente tutorial developer!🚀
