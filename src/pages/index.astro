@@ -1,5 +1,6 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
+import PostComments  from '../components/comments/PostComments.astro'
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { SITE_TITLE, GITHUB } from "../consts";
@@ -51,6 +52,7 @@ import { SITE_TITLE, GITHUB } from "../consts";
         > y comienza a leer!
       </p>
       <p>!Es hora de aprender! 🚀</p>
+      <PostComments />
     </main>
     <Footer />
 
