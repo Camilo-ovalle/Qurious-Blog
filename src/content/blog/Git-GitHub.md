@@ -23,7 +23,7 @@ A grandes rasgos es así como funciona Git, pero en realidad es un poco más com
 
 ### ¿Qué es GitHub?
 
-como lo mensionamos anteriormente, Git es un sistema de control de versiones, que nos permite llevar un registro de los cambios que se realizan en el código fuente de un proyecto. Pero Git no es una plataforma de desarrollo colaborativo, por lo que no nos permite trabajar de manera colaborativa. Para esto, existe GitHub.
+Como lo mencionamos anteriormente, Git es un sistema de control de versiones, que nos permite llevar un registro de los cambios que se realizan en el código fuente de un proyecto. Pero Git no es una plataforma de desarrollo colaborativo, por lo que no nos permite trabajar de manera colaborativa. Para esto, existe GitHub.
 
 ![git placeholder](/cover/git/github.jpg)
 
@@ -31,7 +31,7 @@ GitHub es una plataforma de desarrollo colaborativo, que nos permite trabajar en
 
 ![git placeholder](/cover/git/GitHubCollaboration.jpg)
 
-En este caso, no profundizaremos en el funcionamiento de GitHub, ya que es un tema muy extenso, y que merece un artículo aparte. y por eso te
-invito a visitar nuestro tutorial sobre [como instalar Git & GitHub](/tutorials/git-bash-instalation/), en donde aprenderas a instalar Git & GitHub en tu computadora, y a crear tu primer repositorio en GitHub.
+En este caso, no profundizaremos en el funcionamiento de GitHub, ya que es un tema muy extenso, y que merece un artículo aparte. Y por eso te
+invito a visitar nuestro tutorial sobre [cómo instalar Git & GitHub](/tutorials/git-bash-instalation/), en donde aprenderás a instalar Git & GitHub en tu computadora, y a crear tu primer repositorio en GitHub.
 
-Asi que te veo en el siguiente articulo developer!🚀.
+Así que te veo en el siguiente artículo developer!🚀.

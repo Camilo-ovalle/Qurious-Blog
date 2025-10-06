@@ -7,15 +7,15 @@ heroImage: "/cover/git_flow/git-flow-cover.jpg"
 
 Bienvenido de vuelta Developer, en este tutorial aprenderemos a trabajar con el flujo de trabajo de Git y GitHub, y para ello continuaremos usando repositorio de prueba que creamos en el tutorial anterior.
 
-Pero primero, que veremos en este tutorial?
+Pero primero, ¿qué veremos en este tutorial?
 
-- **_¿Que es el flujo de trabajo basico de Git y GitHub?_**
-- **_Realizando nuestro pimer primer cambio_**
+- **_¿Qué es el flujo de trabajo básico de Git y GitHub?_**
+- **_Realizando nuestro primer cambio_**
 - **_Realizando nuestro primer commit_**
 - **_Realizando nuestro primer push_**
-- **_¿Que sigue?_**
+- **_¿Qué sigue?_**
 
-### ¿Que es el flujo de trabajo basico de Git y GitHub?
+### ¿Qué es el flujo de trabajo básico de Git y GitHub?
 
 En primer lugar, debemos saber que es el flujo de trabajo de Git y GitHub. El flujo de trabajo básico de Git es un conjunto de pasos y operaciones que los desarrolladores siguen al utilizar Git, un sistema de control de versiones distribuido, para administrar el código fuente de un proyecto. El flujo de trabajo básico de Git generalmente implica los siguientes pasos:
 
@@ -23,7 +23,7 @@ En primer lugar, debemos saber que es el flujo de trabajo de Git y GitHub. El fl
 - **_Realizar commit_**
 - **_Realizar push_**
 
-Estos pasos constituyen el flujo de trabajo mas basico de Git y GitHub, y es el que usaremos en este tutorial.
+Estos pasos constituyen el flujo de trabajo más básico de Git y GitHub, y es el que usaremos en este tutorial.
 
 ### Realizando nuestro primer cambio
 
@@ -36,7 +36,7 @@ code .
 
 ```
 
-Si todo sale bien, Visual Studio Code deberia abrirse, y deberiamos ver algo como esto:
+Si todo sale bien, Visual Studio Code debería abrirse, y deberíamos ver algo como esto:
 
 ![git placeholder](/cover/git_flow/vscode-open.png)
 
@@ -62,23 +62,23 @@ Una vez creado el archivo, vamos a escribir el siguiente codigo:
 </html>
 ```
 
-Una vez hecho esto, vamos a guardar el archivo, deberiamos ver algo como esto:
+Una vez hecho esto, vamos a guardar el archivo, deberíamos ver algo como esto:
 
 ![git placeholder](/cover/git_flow/vscode-save.png)
 
-Pero un momento, que es esto? Que es este icono de un circulo rojo con un 1? Bueno, esto es un indicador de que hemos realizado un cambio en nuestro repositorio, y que este cambio no ha sido guardado. Para guardar el cambio tenemos 2 opciones, podemos dirigirnos a nuestra terminal de Git bash para escribir nuestos comandos, o para mas comodidad, podemos abrir una terminal en Visual Studio Code. Para esto, en Visual Studio Code usando la combinación de teclas **_Ctrl + ñ_**.
+Pero un momento, ¿qué es esto? ¿Qué es este icono de un círculo rojo con un 1? Bueno, esto es un indicador de que hemos realizado un cambio en nuestro repositorio, y que este cambio no ha sido guardado. Para guardar el cambio tenemos 2 opciones, podemos dirigirnos a nuestra terminal de Git bash para escribir nuestros comandos, o para más comodidad, podemos abrir una terminal en Visual Studio Code. Para esto, en Visual Studio Code usando la combinación de teclas **_Ctrl + ñ_**.
 
 Una vez abierta la terminal, seleccionaremos la opcion **_Git bash_** como se muestra en la siguiente imagen:
 
 ![git placeholder](/cover/git_flow/vscode-terminal.png)
 
-Excelente! Ahora que ya tenemos abierta la terminal, vamos a digitamos el siguiente comando:
+¡Excelente! Ahora que ya tenemos abierta la terminal, vamos a digitar el siguiente comando:
 
 ```bash
 git add .
 ```
 
-Este comando le dice a Git que queremos agregar todos los cambios que hemos realizado en nuestro repositorio. Si todo sale bien, deberiamos ver algo como esto:
+Este comando le dice a Git que queremos agregar todos los cambios que hemos realizado en nuestro repositorio. Si todo sale bien, deberíamos ver algo como esto:
 
 ![git placeholder](/cover/git_flow/git-add.png)
 
@@ -88,33 +88,33 @@ Bien, ahora que ya hemos agregado nuestros cambios, es hora de realizar nuestro 
 git commit -m "Mi primer cambio"
 ```
 
-Este comando le dice a Git que queremos realizar un commit con el mensaje **_"Mi primer cambio"_**. Si todo sale bien, deberiamos ver algo como esto:
+Este comando le dice a Git que queremos realizar un commit con el mensaje **_"Mi primer cambio"_**. Si todo sale bien, deberíamos ver algo como esto:
 
 ![git placeholder](/cover/git_flow/git-commit.png)
 
 ![git placeholder](/cover/git_flow/git-commit2.png)
 
-Lo que acabamos de hacer es guardar nuestro cambio en el repositorio local, pero que es el repositorio local? Bueno, el repositorio local es el repositorio que tenemos en nuestra computadora, y el repositorio remoto es el repositorio que tenemos en GitHub. Ahora que ya hemos guardado nuestro cambio en el repositorio local, es hora de guardar nuestro cambio en el repositorio remoto. Para esto, vamos a digitar el siguiente comando:
+Lo que acabamos de hacer es guardar nuestro cambio en el repositorio local, pero ¿qué es el repositorio local? Bueno, el repositorio local es el repositorio que tenemos en nuestra computadora, y el repositorio remoto es el repositorio que tenemos en GitHub. Ahora que ya hemos guardado nuestro cambio en el repositorio local, es hora de guardar nuestro cambio en el repositorio remoto. Para esto, vamos a digitar el siguiente comando:
 
 ```bash
 git push origin main
 ```
 
-Este comando le dice a Git que queremos realizar un push de nuestro cambio al repositorio remoto. Si todo sale bien, deberiamos ver algo como esto:
+Este comando le dice a Git que queremos realizar un push de nuestro cambio al repositorio remoto. Si todo sale bien, deberíamos ver algo como esto:
 
 ![git placeholder](/cover/git_flow/git-push.png)
 
 ![git placeholder](/cover/git_flow/git-push2.png)
 
-Excelente! Ahora que ya hemos guardado nuestro cambio en el repositorio remoto, vamos a ir a GitHub para verificar que nuestro cambio se haya guardado correctamente. Para esto, vamos a ir a nuestro repositorio en GitHub, y deberiamos ver algo como esto:
+¡Excelente! Ahora que ya hemos guardado nuestro cambio en el repositorio remoto, vamos a ir a GitHub para verificar que nuestro cambio se haya guardado correctamente. Para esto, vamos a ir a nuestro repositorio en GitHub, y deberíamos ver algo como esto:
 
 ![git placeholder](/cover/git_flow/github-repo.png)
 
-Excelente! Nuestro cambio se ha guardado correctamente en el repositorio remoto. Ahora que ya hemos guardado nuestro cambio en el repositorio remoto, vamos a realizar otro cambio, pero esta vez, vamos a realizarlo directamente en GitHub. Para esto, vamos a ir a nuestro repositorio en GitHub, y vamos a hacer click en el archivo **_index.html_**.
+¡Excelente! Nuestro cambio se ha guardado correctamente en el repositorio remoto. Ahora que ya hemos guardado nuestro cambio en el repositorio remoto, vamos a realizar otro cambio, pero esta vez, vamos a realizarlo directamente en GitHub. Para esto, vamos a ir a nuestro repositorio en GitHub, y vamos a hacer clic en el archivo **_index.html_**.
 
 ![git placeholder](/cover/git_flow/github-index.png)
 
-Una vez hecho esto, vamos a hacer click en el boton **_Edit this file_**.
+Una vez hecho esto, vamos a hacer clic en el botón **_Edit this file_**.
 
 ![git placeholder](/cover/git_flow/github-edit.png)
 
@@ -139,21 +139,21 @@ Una vez hecho esto, vamos a escribir el siguiente codigo:
 </html>
 ```
 
-Una vez hecho esto, vamos a hacer click en el boton **_Commit changes_**.
+Una vez hecho esto, vamos a hacer clic en el botón **_Commit changes_**.
 
 ![git placeholder](/cover/git_flow/github-commit.png)
 
-Ahora debemos escribir un mensaje para nuestro commit, y una vez hecho esto, vamos a hacer click en el boton **_Commit changes_**.
+Ahora debemos escribir un mensaje para nuestro commit, y una vez hecho esto, vamos a hacer clic en el botón **_Commit changes_**.
 
 ![git placeholder](/cover/git_flow/github-commit2.png)
 
-Excelente! Ahora que ya hemos guardado nuestro cambio en el repositorio remoto, vamos a ir a Visual Studio Code para verificar que nuestro cambio se haya guardado correctamente. Para esto, vamos a ir a nuestra terminal de Git bash, y vamos a digitar el siguiente comando:
+¡Excelente! Ahora que ya hemos guardado nuestro cambio en el repositorio remoto, vamos a ir a Visual Studio Code para verificar que nuestro cambio se haya guardado correctamente. Para esto, vamos a ir a nuestra terminal de Git bash, y vamos a digitar el siguiente comando:
 
 ```bash
 git pull origin main
 ```
 
-Este comando le dice a Git que queremos realizar un pull de nuestro cambio al repositorio local. Si todo sale bien, deberiamos ver algo como esto:
+Este comando le dice a Git que queremos realizar un pull de nuestro cambio al repositorio local. Si todo sale bien, deberíamos ver algo como esto:
 
 ![git placeholder](/cover/git_flow/git-pull.png)
 
@@ -167,12 +167,12 @@ Felicidades, acabas de realizar tu primer cambio, tu primer commit y tu primer p
 
 Con esto podras afianzar lo que has aprendido en este tutorial.
 
-### ¿Que sigue?
+### ¿Qué sigue?
 
-Excelente! En este tutorial aprendimos a trabajar con el flujo de trabajo de Git y GitHub, y para ello realizamos nuestro primer cambio, nuestro primer commit y nuestro primer push. Con esto seremos capaces de trabajar con el flujo de trabajo de Git y GitHub, y podremos trabajar en equipo con otros desarrolladores.
+¡Excelente! En este tutorial aprendimos a trabajar con el flujo de trabajo de Git y GitHub, y para ello realizamos nuestro primer cambio, nuestro primer commit y nuestro primer push. Con esto seremos capaces de trabajar con el flujo de trabajo de Git y GitHub, y podremos trabajar en equipo con otros desarrolladores.
 
-En el proximo tutorial aprenderemos como utilizar lo que hemos aprendido para sibir una pagina web al hosting gratuito **_Netlify_**.
+En el próximo tutorial aprenderemos cómo utilizar lo que hemos aprendido para subir una página web al hosting gratuito **_Netlify_**.
 
-Si te gusto este tutorial, no olvides compartirlo con tus amigos y seguirme en mis redes sociales para que no te pierdas de nada.
+Si te gustó este tutorial, no olvides compartirlo con tus amigos y seguirme en mis redes sociales para que no te pierdas de nada.
 
-**_Nos vemos en el proximo tutorial_** 👋👋👋
+**_Nos vemos en el próximo tutorial_** 👋👋👋
