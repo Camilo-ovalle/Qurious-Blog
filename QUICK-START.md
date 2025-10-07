@@ -5,6 +5,7 @@
 ---
 
 ## ⏰ Time to read this: 5 minutes
+
 ## ⏰ Time to complete Week 1, Day 1: 2 hours
 
 ---
@@ -14,6 +15,7 @@
 ### 1. Block Time in Your Calendar (DO THIS NOW)
 
 Open your calendar and block:
+
 - **Mon-Fri**: 2 hours daily (preferably same time)
 - **Weekends**: 4 hours (Saturday OR Sunday)
 
@@ -26,6 +28,7 @@ If you can't commit to this, pause and reconsider. Consistency beats intensity.
 ### 2. Set Up Your Workspace
 
 Create a dedicated space for this project:
+
 - [ ] Clean desk/workspace
 - [ ] Close distracting apps (social media, etc.)
 - [ ] Music/focus playlist ready (if that helps you)
@@ -43,11 +46,13 @@ Create a dedicated space for this project:
 **Decision to make**: What's the name of your blog?
 
 Current options:
+
 - Qurious Blog
 - DEV Gate
 - Something new
 
 **Action**:
+
 1. Pick ONE name (don't overthink it)
 2. Document decision:
    ```bash
@@ -55,30 +60,33 @@ Current options:
    echo "Reason: [Why you chose this]" >> DECISIONS.md
    ```
 
-**My choice**: _____________________
+**My choice**: ****\*\*****\_****\*\*****
 
 ---
 
 ### Task 2: Decide on Domain (30 min)
 
 **Options**:
+
 1. Buy a domain (~$12/year) - Recommended
    - Example: devgate.dev, miurl.com, etc.
 2. Use free subdomain from Vercel/Netlify
    - Example: your-blog.vercel.app
 
 **If buying domain**:
+
 - Check availability: [Namecheap](https://www.namecheap.com/) or [Cloudflare](https://www.cloudflare.com/products/registrar/)
 - Price range: $10-15/year
 - TLDs recommendation: .com, .dev, .tech, .blog
 
 **Action**:
+
 ```bash
 echo "Domain Strategy: [Buy domain / Use free subdomain]" >> DECISIONS.md
 echo "Domain Name: [your-domain.com or TBD]" >> DECISIONS.md
 ```
 
-**My domain**: _____________________
+**My domain**: https://dev-gate.netlify.app/
 
 ---
 
@@ -87,16 +95,19 @@ echo "Domain Name: [your-domain.com or TBD]" >> DECISIONS.md
 **File to edit**: `astro.config.mjs`
 
 **Current**:
+
 ```javascript
-site: "https://example.com"
+site: 'https://example.com';
 ```
 
 **Change to**:
+
 ```javascript
-site: "https://your-actual-domain.com" // or subdomain
+site: 'https://dev-gate.netlify.app/'; // or subdomain
 ```
 
 **Action**:
+
 ```bash
 code astro.config.mjs
 # Make the change
@@ -113,12 +124,14 @@ git commit -m "fix(config): update site URL to actual domain"
 **File to edit**: `src/consts.ts`
 
 **Current**:
+
 ```typescript
 export const SITE_TITLE = 'DEV🚀Gate';
 export const SITE_DESCRIPTION = 'Welcome to my website!';
 ```
 
 **Change to**:
+
 ```typescript
 export const SITE_TITLE = '[Your Blog Name]';
 export const SITE_DESCRIPTION = '[A compelling description in 150 chars]';
@@ -128,10 +141,12 @@ export const SITE_DESCRIPTION = '[A compelling description in 150 chars]';
 Make it specific and value-driven.
 
 Examples:
+
 - ❌ "My personal blog about programming"
 - ✅ "Tutoriales de desarrollo web en español para principiantes y developers autodidactas"
 
 **Action**:
+
 ```bash
 code src/consts.ts
 # Make the changes
@@ -148,10 +163,12 @@ git commit -m "feat(content): update site title and description"
 **Files to edit**: All `.astro` files with `<html lang="en">`
 
 **Find and replace**:
+
 - Search: `lang="en"`
 - Replace: `lang="es"`
 
 **Files affected**:
+
 - `src/pages/index.astro`
 - `src/pages/blog/index.astro`
 - `src/pages/tutorials/index.astro`
@@ -159,6 +176,7 @@ git commit -m "feat(content): update site title and description"
 - Any other layout files
 
 **Quick way**:
+
 ```bash
 # Find all occurrences
 grep -r 'lang="en"' src/
@@ -170,6 +188,7 @@ grep -r 'lang="en"' src/
 ```
 
 **Action**:
+
 ```bash
 git add .
 git commit -m "fix(i18n): change HTML lang attribute to Spanish"
@@ -188,16 +207,19 @@ Stand up, stretch, hydrate. You're doing great!
 ### Task 6: Update Dependencies (20 min)
 
 **Check current versions**:
+
 ```bash
 npm outdated
 ```
 
 **Update all**:
+
 ```bash
 npm update
 ```
 
 **Check for vulnerabilities**:
+
 ```bash
 npm audit
 npm audit fix
@@ -207,12 +229,14 @@ npm audit fix
 Read changelog first: https://github.com/withastro/astro/releases
 
 **Action**:
+
 ```bash
 git add package.json package-lock.json
 git commit -m "chore(deps): update all dependencies"
 ```
 
 ⚠️ **Important**: Test that site still builds:
+
 ```bash
 npm run build
 ```
@@ -226,12 +250,14 @@ If errors, check Astro migration guides.
 ### Task 7: Set Up Linting (20 min)
 
 **Install ESLint + Prettier**:
+
 ```bash
 npm install -D eslint prettier eslint-config-prettier eslint-plugin-astro
 npx eslint --init
 ```
 
 **Create `.prettierrc`**:
+
 ```json
 {
   "semi": true,
@@ -244,6 +270,7 @@ npx eslint --init
 ```
 
 **Create `.eslintignore` and `.prettierignore`**:
+
 ```
 dist/
 node_modules/
@@ -251,6 +278,7 @@ node_modules/
 ```
 
 **Add scripts to `package.json`**:
+
 ```json
 {
   "scripts": {
@@ -261,6 +289,7 @@ node_modules/
 ```
 
 **Action**:
+
 ```bash
 npm run format
 git add .
@@ -293,6 +322,7 @@ git commit -m "chore(tooling): add ESLint and Prettier"
 ## 📅 TOMORROW (Day 2)
 
 **Tasks**:
+
 1. Fix all image alt texts
 2. Implement Astro Image component
 3. Optimize existing images
@@ -301,6 +331,7 @@ git commit -m "chore(tooling): add ESLint and Prettier"
 **Estimated time**: 2-3 hours
 
 **Prep for tomorrow**:
+
 - [ ] Review Astro Image docs: https://docs.astro.build/en/guides/images/
 - [ ] Find placeholder images or prepare your own
 
@@ -310,10 +341,10 @@ git commit -m "chore(tooling): add ESLint and Prettier"
 
 Before you close for the day, answer these:
 
-1. **How did it go?** (1-10): _____
-2. **Energy level?** (1-10): _____
-3. **Biggest blocker?**: _____________________
-4. **One thing you learned**: _____________________
+1. **How did it go?** (1-10): **\_**
+2. **Energy level?** (1-10): **\_**
+3. **Biggest blocker?**: ****\*\*****\_****\*\*****
+4. **One thing you learned**: ****\*\*****\_****\*\*****
 5. **Will you be back tomorrow?** YES / NO
 
 If you answered "NO" to #5, ask yourself why.
@@ -326,6 +357,7 @@ If you can't commit to Day 2, this plan isn't for you right now, and that's okay
 **Post your progress** (optional but recommended):
 
 Twitter/X:
+
 ```
 🚀 Day 1 of reviving my blog project!
 
@@ -340,6 +372,7 @@ Twitter/X:
 ```
 
 LinkedIn:
+
 ```
 Started executing a 12-week improvement plan for my technical blog today.
 
@@ -376,22 +409,26 @@ See you tomorrow! 🔥
 **Common Issues**:
 
 ### "npm update broke my build"
+
 - Check Astro migration guide
 - Revert: `git reset --hard HEAD~1`
 - Update one package at a time
 
 ### "I don't know what domain to choose"
+
 - Don't overthink it
 - Use free subdomain for now
 - Buy domain later if needed
 
 ### "I'm stuck on [X]"
+
 - Google the error message
 - Check Astro Discord
 - Ask ChatGPT/Claude
 - Open an issue in your repo
 
 ### "I don't have 2 hours today"
+
 - That's okay! Do 1 hour
 - Consistency > perfection
 - Don't break the chain

@@ -16,6 +16,7 @@ El nombre "Dev-Gate" representa la idea de ser una "puerta de entrada" al desarr
 Aunque el blog evolucionará más allá de ese objetivo inicial, este nombre mantiene esa esencia de accesibilidad y apertura para nuevos desarrolladores.
 
 **Alternativas consideradas**:
+
 - Qurious Blog
 - Otras opciones
 
@@ -25,17 +26,23 @@ Aunque el blog evolucionará más allá de ese objetivo inicial, este nombre man
 
 ## Estrategia de Dominio
 
-**Fecha de decisión**: 5 de Octubre, 2025
+**Fecha de decisión**: 6 de Octubre, 2025
 
-**Decisión**: TBD (Por definir)
+**Decisión**: ✅ Usar dominio gratuito de Netlify
 
-**Opciones**:
-1. Comprar dominio personalizado (~$12/año)
-   - Ejemplo: devgate.dev, dev-gate.com
-2. Usar subdomain gratuito de Vercel/Netlify
-   - Ejemplo: dev-gate.vercel.app
+**Dominio actual**: https://dev-gate.netlify.app
 
-**Próximo paso**: Evaluar disponibilidad de dominios en Semana 1, Day 2
+**Razón**:
+Por temas de economía, se ha decidido comenzar con el dominio gratuito de Netlify. Esto permite:
+- Costo $0/año (presupuesto inicial mínimo)
+- Deploy automático desde GitHub
+- HTTPS gratuito
+- CDN global incluido
+- Profesional y confiable
+
+**Plan futuro**: Cuando el proyecto tenga tracción y el presupuesto lo permita, se considerará migrar a un dominio personalizado (ej: devgate.dev, dev-gate.com)
+
+**Estado**: ✅ IMPLEMENTADO
 
 ---
 
@@ -48,11 +55,13 @@ Aunque el blog evolucionará más allá de ese objetivo inicial, este nombre man
 **Tiempo dedicado al proyecto**:
 
 ### Días de semana (L-V)
+
 - **Personal Development (bloques nocturnos)**: 8:30 PM - 10 PM (1.5 horas)
 - **Total por día**: ~1.5 horas
 - **Total L-V**: ~7.5 horas/semana
 
 ### Fines de semana
+
 - **Sábado**: 2-4 PM (Personal Development) + Flexible por la tarde
 - **Domingo**: Flexible
 - **Total fin de semana**: ~4-6 horas
@@ -65,11 +74,11 @@ Aunque el blog evolucionará más allá de ese objetivo inicial, este nombre man
 
 ## Próximas Decisiones Pendientes
 
-- [ ] Dominio definitivo (Semana 1)
-- [ ] Plataforma de hosting (Vercel vs Netlify) (Semana 1-2)
+- [x] Dominio definitivo (Semana 1) - ✅ dev-gate.netlify.app
+- [x] Plataforma de hosting (Vercel vs Netlify) (Semana 1-2) - ✅ Netlify
 - [ ] Newsletter service (Semana 5-6)
 - [ ] Analytics platform (Semana 5-6)
 
 ---
 
-**Última actualización**: 2025-10-05 22:16 (Horario Colombia)
+**Última actualización**: 2025-10-06 19:50 (Horario Colombia)

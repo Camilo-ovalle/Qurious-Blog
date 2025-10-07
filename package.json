@@ -10,11 +10,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^3.1.7",
-    "@astrojs/rss": "^4.0.7",
-    "@astrojs/sitemap": "^3.1.6",
-    "astro": "^4.15.10",
-    "serve": "^14.2.3"
+    "@astrojs/mdx": "^4.3.6",
+    "@astrojs/rss": "^4.0.12",
+    "@astrojs/sitemap": "^3.6.0",
+    "astro": "^5.14.1",
+    "serve": "^14.2.3",
+    "tslib": "^2.8.1"
   },
   "devDependencies": {
     "@flydotio/dockerfile": "^0.5.9"

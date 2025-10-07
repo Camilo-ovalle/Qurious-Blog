@@ -2,6 +2,13 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Project Information
+
+- **Project Name**: DEV GATE
+- **Live Site**: https://dev-gate.netlify.app
+- **Framework**: Astro v5
+- **Deployment**: Netlify (automatic from main branch)
+
 ## Development Commands
 
 ### Core Commands
@@ -37,8 +44,14 @@ Both collections share the same schema defined in `src/content/config.ts`:
 - `src/components/BaseHead.astro` - HTML head configuration
 
 ### Site Configuration
-- Site constants are defined in `src/consts.ts` (SITE_TITLE, SITE_DESCRIPTION, etc.)
-- Astro configuration in `astro.config.mjs` includes MDX and sitemap integrations
+- **Site URL**: `https://dev-gate.netlify.app` (configured in `astro.config.mjs`)
+- Site constants are defined in `src/consts.ts`:
+  - `SITE_TITLE`: "DEV GATE"
+  - `SITE_DESCRIPTION`: Professional description for SEO
+- Astro configuration in `astro.config.mjs` includes:
+  - MDX integration for enhanced markdown
+  - Sitemap generation (automatic)
+  - Site URL for absolute URLs in sitemap/RSS
 - TypeScript configuration extends Astro's base with strict null checks
 
 ### Content Structure
