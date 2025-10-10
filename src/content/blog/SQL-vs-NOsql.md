@@ -1,10 +1,9 @@
 ---
-title: 'Bases de datos relacionales vs bases de datos no realacionales. ¿Cual elegir?'
-description: 'Como elegir un tipo de base de datos para mi proyecto.'
-pubDate: 'Mar 30 2025'
-heroImage: '/cover/dataBase_images/relationalVSnoSql.png'
+title: "Bases de datos relacionales vs bases de datos no realacionales. ¿Cual elegir?"
+description: "Como elegir un tipo de base de datos para mi proyecto."
+pubDate: "Mar 30 2025"
+heroImage: "/cover/dataBase_images/relationalVSnoSql.png"
 ---
-
 
 Cuando estamos desarrollando una aplicación, una de las decisiones más importantes que debemos tomar es qué tipo de base de datos utilizar. Las dos principales categorías son las bases de datos relacionales (SQL) y las no relacionales (NoSQL). Entender sus diferencias y casos de uso nos ayudará a tomar la mejor decisión.
 
@@ -51,24 +50,29 @@ Las bases de datos NoSQL surgieron para abordar limitaciones de las bases relaci
 Para tomar la decisión correcta, considera:
 
 1. **Estructura de datos**:
+
 - Datos estructurados → SQL
 - Datos variables o semiestructurados → NoSQL
 
 2. **Escalabilidad**:
+
 - Vertical (más potencia) → SQL
 - Horizontal (más servidores) → NoSQL
 
 3. **Consistencia**:
+
 - Crítica (ej. finanzas) → SQL
 - Eventual (ej. redes sociales) → NoSQL
 
 4. **Volumen y velocidad**:
+
 - Transacciones complejas → SQL
 - Alta velocidad/volumen → NoSQL
 
 ## Conclusión
 
 No existe una respuesta única. La elección dependerá de:
+
 - Requisitos específicos del proyecto
 - Naturaleza de los datos
 - Escala esperada
