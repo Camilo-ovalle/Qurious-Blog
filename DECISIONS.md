@@ -72,13 +72,74 @@ Por temas de economía, se ha decidido comenzar con el dominio gratuito de Netli
 
 ---
 
+## Herramientas de Desarrollo
+
+### ESLint y Prettier
+
+**Fecha de decisión**: 9 de Octubre, 2025
+
+**Decisión**: ✅ Implementar ESLint y Prettier para mantener calidad de código
+
+**Herramientas elegidas**:
+- **ESLint** con `eslint-plugin-astro` - Para detectar errores y bugs
+- **Prettier** con `prettier-plugin-astro` - Para formateo automático
+- **TypeScript ESLint** - Para soporte de TypeScript en archivos Astro
+
+**Razón**:
+- Mantener código consistente y profesional
+- Detectar errores antes de que causen problemas
+- Facilitar trabajo en equipo (si colaboro con otros)
+- Demostrar buenas prácticas en entrevistas
+- Formateo automático ahorra tiempo
+
+**Scripts configurados**:
+```bash
+npm run lint           # Revisar errores
+npm run format         # Formatear código
+npm run format:check   # Solo verificar (para CI/CD)
+```
+
+**Estado**: ✅ IMPLEMENTADO
+
+---
+
+## Optimización de Imágenes
+
+**Fecha de decisión**: 9 de Octubre, 2025
+
+**Decisión**: ✅ Usar componente `<Image>` de Astro para optimización automática
+
+**Características implementadas**:
+- Conversión automática a WebP
+- Lazy loading (primera imagen eager, resto lazy)
+- Imágenes responsive automáticas
+- Alt texts descriptivos para accesibilidad
+- Dimensiones definidas (previene layout shift)
+
+**Razón**:
+- Mejora performance automáticamente
+- Mejor Core Web Vitals (LCP, CLS)
+- Reduce uso de ancho de banda
+- Mejora SEO y accesibilidad
+- Solo requiere cambiar `<img>` por `<Image>`
+
+**Beneficio medido**: Conversión automática de imágenes JPG/PNG a WebP sin trabajo manual
+
+**Estado**: ✅ IMPLEMENTADO
+
+---
+
 ## Próximas Decisiones Pendientes
 
 - [x] Dominio definitivo (Semana 1) - ✅ dev-gate.netlify.app
 - [x] Plataforma de hosting (Vercel vs Netlify) (Semana 1-2) - ✅ Netlify
+- [x] Herramientas de linting (Semana 1) - ✅ ESLint + Prettier
+- [x] Optimización de imágenes (Semana 1-2) - ✅ Componente Image de Astro
+- [ ] Pre-commit hooks (Semana 1-2) - En evaluación
+- [ ] Sistema de tags/categorías (Semana 3-4)
 - [ ] Newsletter service (Semana 5-6)
 - [ ] Analytics platform (Semana 5-6)
 
 ---
 
-**Última actualización**: 2025-10-06 19:50 (Horario Colombia)
+**Última actualización**: 2025-10-09 20:52 (Horario Colombia)
