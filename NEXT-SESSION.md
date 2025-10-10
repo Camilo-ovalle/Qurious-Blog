@@ -1,6 +1,25 @@
 # 🚀 PRÓXIMA SESIÓN - Plan de Acción
 
-**Última actualización**: 9 de Octubre 2025, 21:10 PM
+**Última actualización**: 9 de Octubre 2025, 21:20 PM
+
+---
+
+## 🎯 RECORDATORIO CRÍTICO: Learning-First Approach
+
+**⚠️ IMPORTANTE**: A partir de ahora, ANTES de implementar cualquier feature:
+
+1. 🎯 **Claude te dará un RETO** relacionado con lo que vas a hacer
+2. 💪 **Tú intentarás resolverlo SOLO** (5-30 min según complejidad)
+3. ✅ **Compararemos soluciones** y aprenderás de las diferencias
+4. 🚀 **Implementaremos juntos** con comprensión real
+
+**Ver**: `LEARNING-CHALLENGES.md` para todos los retos disponibles
+
+**Tu nivel actual**: 🟢 Aprendiz (0/12 retos completados)
+
+**Próximo reto listo**: Reto 2.1 - Crear componente `<DifficultyBadge>`
+
+**Esto NO es negociable. El objetivo es APRENDER, no solo hacer código.** 🔥
 
 ---
 
