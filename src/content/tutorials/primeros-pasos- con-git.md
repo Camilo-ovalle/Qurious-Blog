@@ -1,8 +1,13 @@
 ---
 title: "Primeros pasos con Git y GitHub"
-description: "Configuracion de git Y github en windows para desarrolladores"
+description: "Aprende a configurar Git y GitHub en Windows, crear tu primer repositorio y conectar Git Bash con GitHub desde cero."
 pubDate: "Oct 02 2023"
 heroImage: "/cover/git_usage/github-pages.webp"
+heroImageAlt: "Pantalla de GitHub Pages mostrando la interfaz de configuración inicial"
+tags: ["git", "github", "configuración", "windows", "principiantes"]
+category: "tutorial"
+difficulty: "beginner"
+estimatedReadTime: 12
 ---
 
 Hola developer!👋. En este tutorial aprenderemos a crear un nuevo repositorio en GitHub, y a conectar Git bash con GitHub. Así que sin más preámbulos, comencemos!🚀

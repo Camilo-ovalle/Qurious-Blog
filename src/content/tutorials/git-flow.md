@@ -1,8 +1,13 @@
 ---
 title: "Trabajando con Git y GitHub"
-description: "Trabajando con el flujo de trabajo de Git y GitHub"
+description: "Aprende el flujo de trabajo básico de Git y GitHub: realiza tu primer cambio, commit y push a un repositorio remoto paso a paso."
 pubDate: "Oct 24 2023"
 heroImage: "/cover/git_flow/git-flow-cover.jpg"
+heroImageAlt: "Diagrama ilustrando el flujo de trabajo de Git con comandos básicos"
+tags: ["git", "github", "control-de-versiones", "workflow", "tutorial"]
+category: "tutorial"
+difficulty: "beginner"
+estimatedReadTime: 15
 ---
 
 Bienvenido de vuelta Developer, en este tutorial aprenderemos a trabajar con el flujo de trabajo de Git y GitHub, y para ello continuaremos usando repositorio de prueba que creamos en el tutorial anterior.

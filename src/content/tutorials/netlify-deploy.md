@@ -1,8 +1,13 @@
 ---
-title: "Como desplegar un sitio web basico en Netlify"
-description: "Aprendiendo a desplegar un sitio web basico en Netlify"
+title: "Cómo desplegar un sitio web básico en Netlify"
+description: "Tutorial paso a paso para desplegar tu primer sitio web en Netlify conectado con GitHub. Deploy automático y hosting gratuito."
 pubDate: "Oct 27 2023"
 heroImage: "/cover/deploy/netlify-github.png"
+heroImageAlt: "Integración de Netlify con GitHub para deploy automático"
+tags: ["netlify", "deploy", "hosting", "github", "devops"]
+category: "tutorial"
+difficulty: "beginner"
+estimatedReadTime: 10
 ---
 
 Hola de nuevo Developer 👋, en este tutorial aprenderemos a desplegar un sitio web basico en Netlify, y con esto concluiremos con los tutoriales relacionados a Git y GitHub, y para ello necesitaremos tener una cuenta en Netlify y un repositorio en GitHub.

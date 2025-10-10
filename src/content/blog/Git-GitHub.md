@@ -1,8 +1,13 @@
 ---
-title: "Git & GitHub - Tus mejores amigos al programar."
-description: "Git & GitHub - Tus mejores amigos al programar."
+title: "Git & GitHub - Tus mejores amigos al programar"
+description: "Aprende qué es Git y GitHub, cómo funcionan y por qué son herramientas esenciales para trabajar en equipo y gestionar versiones de código."
 pubDate: "Sep 28 2023"
 heroImage: "/github.jpg"
+heroImageAlt: "Logo de Git y GitHub representando control de versiones"
+tags: ["git", "github", "control-de-versiones", "trabajo-en-equipo"]
+category: "blog"
+difficulty: "beginner"
+estimatedReadTime: 8
 ---
 
 En el mundo de la programación, el trabajar junto con otras personas en un equipo de trabajo, es algo muy común. Por lo que es necesario que todos los integrantes del equipo tengan acceso al código fuente del proyecto, y que puedan realizar cambios en el mismo. Para esto, existen herramientas que nos permiten trabajar de manera colaborativa, y una de las más populares es Git.

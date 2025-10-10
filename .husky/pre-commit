@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "🔍 Running ESLint..."
+npm run lint
+
+echo "🎨 Checking code formatting..."
+npm run format:check
+
+echo "✅ All pre-commit checks passed!"
